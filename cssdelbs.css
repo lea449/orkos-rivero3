@@ -1,0 +1,147 @@
+body{
+
+    background-color: black;
+}
+
+.logoSize{
+
+    width: 150px;
+    height: 150px;
+    
+}
+
+li{
+
+    font-size: 24px;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+
+.tituloOrkos{
+
+    font-size: 60px;
+    color: white;
+}
+
+.subtitulos{
+
+    color: white;
+    background-color: rgb(190,24,34);
+    margin-top: 15px;
+}
+
+.clasePrueba{
+
+    text-align: center;
+}
+
+.filaTitulos{
+
+    margin-left: 150px;
+}
+
+.fondoBox{
+
+    width: 1000px;
+    height: 700px;
+    
+    padding-left: 50px;
+}
+
+.colorFooter{
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+}
+
+.estilosEmail{
+
+    
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+footer {
+
+     background-color: rgb(190, 24, 34);
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction:row;
+     justify-content: space-between;
+     align-items: center;
+     }
+     
+ .derechos{
+
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+    }
+.imgFooter{
+
+    padding-left: 10px;
+}    
+.espacioRedes{
+
+                    display: flex;
+                    flex-direction: row;  
+                    align-items: center;
+                    width: 300px;
+}
+
+.col-12 {
+
+    padding: 0px !important;
+}
+
+.titulosSecundarios{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(190,24,34);
+
+
+}
+
+.estilosWod{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    background-color: black;
+    font-size: 14px;
+    width: 200px;
+    
+    
+}
+
+.wod {
+    background-color: black;
+    text-align: center;
+    margin-left: 60px;
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    
+}
+
+.container-fluid{
+
+    padding: 0px !important;
+}
+
+.estiloForm{
+
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+
+.imagenContacto {
+
+    width: 800px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+}

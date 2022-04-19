@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lea449/orkos-rivero2.git"
+    "url": "git+https://github.com/lea449/orkos-rivero3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lea449/orkos-rivero2/issues"
+    "url": "https://github.com/lea449/orkos-rivero3/issues"
   },
-  "homepage": "https://github.com/lea449/orkos-rivero2#readme",
+  "homepage": "https://github.com/lea449/orkos-rivero3#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"

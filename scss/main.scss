@@ -1,0 +1,307 @@
+
+$color-de-fondo:black;
+$color-fondo-titulos: rgb(190,24,34);
+$size-titulo-orkos: 60px;
+$size-titulos-secundarios: 40px;
+$fuente-textos: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
+
+    background-color: $color-de-fondo;
+}
+
+.bg-danger{
+
+    background-color: $color-fondo-titulos !important;
+}
+
+.logoSize{
+
+    width: 150px;
+    height: 150px;
+    
+}
+
+.imgSize {
+ 
+    height:auto;
+    
+    
+    max-width:100%;
+  }
+
+li{
+   
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+li:hover{
+
+    background-color: $color-fondo-titulos;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.tituloOrkos{
+    font-size: $size-titulo-orkos;   
+    color: white;
+}
+
+.tituloPages{
+    font-size: $size-titulos-secundarios;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width:100%;
+    }
+    }
+.subtitulos{
+
+    color: white;
+    background-color: $color-fondo-titulos;
+    margin-top: 15px;
+}
+
+.clasePrueba{
+
+    text-align: center;
+
+}
+.btn{
+
+    background-color: white;
+    color: $color-fondo-titulos;
+    border: none;
+} 
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px $color-fondo-titulos inset;
+  }
+  
+.filaTitulos{
+
+    margin-left: 150px;
+}
+
+.fondoBox{
+
+    width: 1000px;
+    height: 700px;
+    padding-left: 50px;
+}
+
+.colorFooter{
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+}
+
+.estilosEmail{
+
+    
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: $fuente-textos;
+
+}
+
+footer {
+
+     background-color: $color-fondo-titulos;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction:row;
+     justify-content: space-between;
+     align-items: center;
+     }
+     
+ .derechos{
+
+        color: rgb(0, 0, 0);
+        font-family: $fuente-textos;
+        font-size: 12px;
+    }
+.imgFooter{
+
+    padding-left: 10px;
+}    
+.espacioRedes{
+
+                    display: flex;
+                    flex-direction: row;  
+                    align-items: center;
+                    width: 300px;
+}
+
+.col-12 {
+
+    padding: 0px !important;
+}
+
+.titulosSecundarios{
+    font-family: $fuente-textos;
+    color: white;
+    background-color: $color-fondo-titulos;
+
+
+}
+
+.estilosWod{
+
+    font-family:$fuente-textos;
+    color:whitesmoke;
+    background-color: $color-de-fondo;
+    font-size: 14px;
+    width: 200px;
+    
+    
+}
+
+.wod {
+    background-color:$color-de-fondo;
+    text-align: center;
+    margin-left: 60px;
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    
+}
+
+.container-fluid{
+
+    padding: 0px !important;
+}
+
+.estiloForm{
+
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+
+.imagenContacto {
+
+    width: 800px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+}
+
+.btn:hover{
+
+                background-color: $color-fondo-titulos !important;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 600px;
+    height:200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .fuenteBack{
+
+    font-size: 60px;
+  }
+
+  .col-xs-1 {
+
+    text-align: center;
+  }
+
+  .col-md-3{
+
+    text-align: center;
+  }
+
+  .col-lg-7{
+
+    text-align: center;
+}
+
+.col-md-12{
+
+    text-align: center;
+}
+
+img.zoom {
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+    margin-top: 10px ;
+}
+
+.container-fluid{
+
+    margin:10px;
+
+}
+
+.imgSedes{
+
+    border-radius:5px;
+    margin: 20px;
+    max-width:100%;
+    padding-bottom: 20px;
+    border: 0px;
+
+    
+}
+
+.textoNovedades{
+
+    color: white;
+    font-family: $fuente-textos ;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+   
+   
+   }

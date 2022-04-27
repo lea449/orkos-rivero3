@@ -1,0 +1,42 @@
+.colorFooter{
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+}
+
+.estilosEmail{
+
+    
+    text-decoration: none;
+    color: $color-de-fondo;
+    font-family: $fuente-textos;
+
+}
+
+footer {
+
+     background-color: $color-fondo-titulos;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction:row;
+     justify-content: space-between;
+     align-items: center;
+     }
+     
+ .derechos{
+
+        color: $color-de-fondo;
+        font-family: $fuente-textos;
+        font-size: 12px;
+    }
+.imgFooter{
+
+    padding-left: 10px;
+}    
+.espacioRedes{
+
+                    display: flex;
+                    flex-direction: row;  
+                    align-items: center;
+                    width: 300px;
+}

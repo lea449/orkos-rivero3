@@ -1,0 +1,34 @@
+li{
+   
+    font-size: $size-botones;
+    padding-left: 20px;
+    padding-right: 20px;
+                               
+                               &:hover {
+
+                                background-color: $color-fondo-titulos;
+                                border: 1px;
+                                border-radius: 5px; }
+
+    }
+
+    .btn{
+
+        background-color: $color-blanco;
+        color: $color-fondo-titulos;
+        border: none;
+        font-size: $size-botones;
+    } 
+    
+    .btn:hover, .btn:focus {
+        color: $color-blanco;
+        outline: 0;
+      }
+      
+      .first {
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+      }
+      .first:hover {
+        box-shadow: 0 0 40px 40px $color-fondo-titulos inset;
+      }

@@ -1,73 +1,3 @@
-body {
-  background-color: black; }
-
-.bg-danger {
-  background-color: #be1822 !important; }
-
-.logoSize {
-  width: 150px;
-  height: 150px; }
-
-.imgSize {
-  height: auto;
-  max-width: 100%; }
-
-li {
-  font-size: 24px;
-  padding-left: 20px;
-  padding-right: 20px; }
-
-li:hover {
-  background-color: #be1822;
-  border: 1px;
-  border-radius: 5px; }
-
-.tituloOrkos {
-  font-size: 60px;
-  color: white; }
-
-.tituloCerro, .tituloInde {
-  font-size: 40px;
-  color: white; }
-
-@media (min-width: 768px) {
-  .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 100%; } }
-
-.subtitulos {
-  color: white;
-  background-color: #be1822;
-  margin-top: 15px; }
-
-.clasePrueba {
-  text-align: center; }
-
-.btn {
-  background-color: white;
-  color: #be1822;
-  border: none; }
-
-.btn:hover, .btn:focus {
-  color: #fff;
-  outline: 0; }
-
-.first {
-  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; }
-
-.first:hover {
-  box-shadow: 0 0 40px 40px #be1822 inset; }
-
-.filaTitulos {
-  margin-left: 150px; }
-
-.fondoBox {
-  width: 1000px;
-  height: 700px;
-  padding-left: 50px; }
-
 .colorFooter {
   background-color: brown;
   margin: 0px;
@@ -99,6 +29,76 @@ footer {
   flex-direction: row;
   align-items: center;
   width: 300px; }
+
+li {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  li:hover {
+    background-color: #be1822;
+    border: 1px;
+    border-radius: 5px; }
+
+.btn {
+  background-color: white;
+  color: #be1822;
+  border: none;
+  font-size: 24px; }
+
+.btn:hover, .btn:focus {
+  color: white;
+  outline: 0; }
+
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; }
+
+.first:hover {
+  box-shadow: 0 0 40px 40px #be1822 inset; }
+
+body {
+  background-color: black; }
+
+.bg-danger {
+  background-color: #be1822 !important; }
+
+.logoSize {
+  width: 150px;
+  height: 150px; }
+
+.imgSize {
+  height: auto;
+  max-width: 100%; }
+
+.tituloOrkos {
+  font-size: 60px;
+  color: white; }
+
+.tituloCerro, .tituloInde {
+  font-size: 40px;
+  color: white; }
+
+@media (min-width: 768px) {
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 100%; } }
+
+.subtitulos {
+  color: white;
+  background-color: #be1822;
+  margin-top: 15px; }
+
+.clasePrueba {
+  text-align: center; }
+
+.filaTitulos {
+  margin-left: 150px; }
+
+.fondoBox {
+  width: 1000px;
+  height: 700px;
+  padding-left: 50px; }
 
 .col-12 {
   padding: 0px !important; }

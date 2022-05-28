@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap");
 .colorFooter {
   background-color: brown;
   margin: 0px;
@@ -6,7 +8,7 @@
 .estilosEmail {
   text-decoration: none;
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  font-family: "Bebas Neue", cursive; }
 
 footer {
   background-color: #be1822;
@@ -18,7 +20,7 @@ footer {
 
 .derechos {
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-size: 12px; }
 
 .imgFooter {
@@ -31,9 +33,10 @@ footer {
   width: 300px; }
 
 li {
-  font-size: 24px;
+  font-size: 30px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  font-family: "Bebas Neue", cursive; }
   li:hover {
     background-color: #be1822;
     border: 1px;
@@ -43,7 +46,7 @@ li {
   background-color: white;
   color: #be1822;
   border: none;
-  font-size: 24px; }
+  font-size: 30px; }
 
 .btn:hover, .btn:focus {
   color: white;
@@ -71,12 +74,16 @@ body {
   max-width: 100%; }
 
 .tituloOrkos {
-  font-size: 60px;
-  color: white; }
+  font-size: 80px;
+  color: white;
+  font-family: "Bebas Neue", cursive; }
 
-.tituloCerro, .tituloInde {
-  font-size: 40px;
-  color: white; }
+.tituloCerro {
+  font-size: 50px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  background-color: #be1822;
+  text-align: center; }
 
 @media (min-width: 768px) {
   .col-md-7 {
@@ -87,10 +94,12 @@ body {
 .subtitulos {
   color: white;
   background-color: #be1822;
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-family: "Bebas Neue", cursive; }
 
 .clasePrueba {
-  text-align: center; }
+  text-align: center;
+  font-family: "Bebas Neue", cursive; }
 
 .filaTitulos {
   margin-left: 150px; }
@@ -104,12 +113,12 @@ body {
   padding: 0px !important; }
 
 .titulosSecundarios {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: white;
   background-color: #be1822; }
 
 .estilosWod {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: whitesmoke;
   background-color: black;
   font-size: 14px;
@@ -128,7 +137,8 @@ body {
 .estiloForm {
   background-color: black;
   color: white;
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif; }
 
 .imagenContacto {
   width: 800px;
@@ -175,7 +185,8 @@ body {
   transform: rotateY(180deg); }
 
 .fuenteBack {
-  font-size: 60px; }
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive; }
 
 .col-xs-1 {
   text-align: center; }
@@ -189,9 +200,18 @@ body {
 .col-md-12 {
   text-align: center; }
 
-img.zoom {
-  width: 100%;
-  height: 100%;
+.tituloFotos {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("../imagenes/fondogal.jpg");
+  background-size: auto;
+  font-family: "Bebas Neue", cursive;
+  line-height: 150px; }
+
+.zoom {
+  width: 400px;
+  height: 300px;
   border-radius: 5px;
   margin-top: 10px; }
 
@@ -205,9 +225,32 @@ img.zoom {
   padding-bottom: 20px;
   border: 0px; }
 
+iframe {
+  width: 500px;
+  max-height: 100%; }
+
 .textoNovedades {
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   line-height: 30px;
   margin-top: 20px; }
+
+.grid-elemento3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  margin-left: 20px; }
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    align-items: center; } }

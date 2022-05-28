@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 @import "variables";
 @import "footer";
 @import "menu";
@@ -37,16 +39,18 @@ body{
 .tituloOrkos{
     font-size: $size-titulo-orkos;  
     color:  $color-blanco ;
+    font-family: $fuente-textos;
 }
 
 .tituloCerro{
     font-size: $size-titulos-secundarios;
     color: $color-blanco;
+    font-family: $fuente-textos;
+    background-color: $color-fondo-titulos;
+    text-align: $text-align-center;
 }
 
-.tituloInde{
-    @extend .tituloCerro;
-}
+
 
 @media (min-width: 768px) {
     .col-md-7 {
@@ -60,11 +64,13 @@ body{
     color: $color-blanco;
     background-color: $color-fondo-titulos;
     margin-top: 15px;
+    font-family: $fuente-textos;
 }
 
 .clasePrueba{
 
     text-align: $text-align-center;
+    font-family: $fuente-textos;
 }
 
   
@@ -113,6 +119,7 @@ body{
     border: 5px $color-blanco solid;
     border-radius: 5px;
     
+    
 }
 
 .container-fluid{
@@ -125,6 +132,7 @@ body{
     background-color: $color-de-fondo;
     color: $color-blanco;
     padding-top: 50px;
+    font-family:$fuentes-textos-nov;
 }
 
 .imagenContacto {
@@ -184,6 +192,7 @@ body{
   .fuenteBack{
 
     font-size: $size-titulo-orkos;
+    font-family: $fuente-textos;
   }
 
  
@@ -207,12 +216,25 @@ body{
 
     text-align: $text-align-center;
 }
+.tituloFotos {
 
-img.zoom {
-    width: 100%;
-    height: 100%;
+    color:$color-blanco;
+    font-size: $size-titulos-secundarios;
+    text-align: center;
+    background-image:url("../imagenes/fondogal.jpg");
+    background-size:auto;
+    font-family:$fuente-textos;
+    line-height: 150px;
+    
+    
+    }
+
+.zoom {
+    width: 400px;
+    height: 300px;
     border-radius:5px;
     margin-top: 10px ;
+    
 }
 
 .container-fluid{
@@ -228,18 +250,50 @@ img.zoom {
     max-width:100%;
     padding-bottom: 20px;
     border: 0px;
-
-    
 }
 
+iframe{
+
+    width: 500px ;
+    max-height: 100%;
+}
 
 .textoNovedades{
 
     color: $color-blanco;
-    font-family: $fuente-textos ;
+    font-family:$fuentes-textos-nov ;
     font-size: $size-textos;
     line-height: 30px;
     margin-top: 20px;
    
    
    }
+
+   .grid-elemento3{
+                             
+    grid-column-start: 1;
+    grid-column-end: 3;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 50px;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-left: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+    .flex {
+
+                                flex-direction: column;
+                                align-items: center;
+    }
+
+    }
